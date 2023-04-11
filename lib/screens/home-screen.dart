@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(
-              height: 100,
+              height: 200,
             ),
             const Text(
               "Today's Webtoons!",

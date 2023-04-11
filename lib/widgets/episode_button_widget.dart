@@ -49,12 +49,14 @@ class EpisodeButton extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(
-                episode.title,
-                style: const TextStyle(
-                  color: Colors.green,
-                  fontSize: 16,
-                  fontWeight: FontWeight.w400,
+              Expanded(
+                child: Text(
+                  episode.title,
+                  style: const TextStyle(
+                    color: Colors.green,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w400,
+                  ),
                 ),
               ),
               const Icon(
